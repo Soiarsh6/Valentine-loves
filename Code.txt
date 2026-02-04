@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Forever Love 💍</title>
+<style>
+    body {
+        margin: 0;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(135deg, #ff758c, #ff7eb3);
+        font-family: 'Segoe UI', sans-serif;
+        color: white;
+        text-align: center;
+    }
+    .card {
+        background: rgba(0,0,0,0.25);
+        padding: 30px;
+        border-radius: 20px;
+        box-shadow: 0 0 25px rgba(255,255,255,0.3);
+        max-width: 350px;
+    }
+    h1 {
+        font-size: 26px;
+        margin-bottom: 10px;
+    }
+    p {
+        font-size: 18px;
+        line-height: 1.6;
+    }
+    .heart {
+        font-size: 40px;
+        animation: beat 1s infinite;
+    }
+    @keyframes beat {
+        0%,100% { transform: scale(1); }
+        50% { transform: scale(1.2); }
+    }
+</style>
+</head>
+<body>
+
+<div class="card">
+    <div class="heart">❤️</div>
+    <h1>Simran Soi Vij</h1>
+    <p>
+        You are my today,<br>
+        my tomorrow,<br>
+        my forever.
+    </p>
+    <p>
+        My world begins and ends with you 💍
+    </p>
+    <p>
+        Happy Valentine’s Day,<br>
+        my wife 💕
+    </p>
+</div>
+
+</body>
+</html>
